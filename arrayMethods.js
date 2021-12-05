@@ -55,7 +55,7 @@ const populations = [8175133, 3792621, 2695598, 2100263];
 */
 
 // CODE HERE
-const totalPopulation = populations.reduce((runningTotal, curElement, curIndex, wholeArray) => runningTotal + curElement);
+const totalPopulation = populations.reduce((runningTotal, curElement) => runningTotal + curElement);
 console.log(totalPopulation);
 
 ////////// PROBLEM 4 //////////
@@ -79,7 +79,7 @@ const monstersInYourPocket = [{"monster":"Bulbabunny","CP":156},{"monster":"Bulb
 */
 
 // CODE HERE
-const myStrongest = monstersInYourPocket.filter(monster => monster.CP > 200).map(monster => monster.monster);
+const myStrongest = monstersInYourPocket.filter(monster => monster.CP > 200);
 console.log(myStrongest);
 
 ////////// PROBLEM 5 //////////
