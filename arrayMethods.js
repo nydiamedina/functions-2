@@ -38,7 +38,7 @@ const prices = [15.00, 23.00, 78.00, 34.00, 12.00, 86.00, 12.00, 79.00, 32.00];
 */
 
 // CODE HERE
-const postTaxPrices = prices.map(price => price * (1.07));
+const postTaxPrices = prices.map(price => price * 1.07);
 console.log(postTaxPrices);
 
 ////////// PROBLEM 3 //////////
