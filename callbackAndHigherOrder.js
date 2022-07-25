@@ -7,7 +7,7 @@
 
 // CODE HERE
 const multiply = (num1, num2, callback) => {
-  return callback(num1 * num2)
+  return callback(num1 * num2);
 }
 
 // UNCOMMENT THE FUNCTION CALL BELOW
